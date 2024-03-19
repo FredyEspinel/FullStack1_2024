@@ -1,0 +1,36 @@
+
+
+.encabezado {
+    background: rgba(0,0,0,0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+
+  }
+  
+  .menu {
+    float: left;
+    
+    }
+  
+  .nav-links {
+    list-style: none;
+    overflow: hidden; 
+    display: flex;
+  }
+  
+  .nav-links li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-right: 50px;
+  }
+  .nav-links li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav-links li:hover {
+    background: #eca023;
+  }
